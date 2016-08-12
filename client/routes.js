@@ -3,11 +3,11 @@ import { Route, IndexRoute } from 'react-router';
 
 import App from './components/App';
 import SimpleComponent from './components/SimpleComponent';
-import Route1 from './components/Route1';
+import SignupPage from './components/signup/SignupPage';
 
 export default (
 	<Route path="/" component={App}>
 		<IndexRoute component={SimpleComponent} />
-		<Route path="route1" component={Route1} />
+		<Route path="signup" component={SignupPage} />
 	</Route>
 );
